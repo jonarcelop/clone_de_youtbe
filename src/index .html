@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de Demostración</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" aria-label="Menú" class="nav-item"><span class="material-symbols-outlined">menu</span></a>
+            <img src="Logo.png" alt="Logo" class="logo">
+            <form action="https://www.youtube.com/results" method="GET" class="search-form">
+                <label for="search_query" class="visually-hidden">Buscar en YouTube</label>
+                <input type="text" id="search_query" name="search_query" placeholder="Buscar en YouTube" class="search-input">
+                <input type="submit" value="Buscar" class="search-button">
+                <a href="#" aria-label="Voz" ><span class="material-symbols-outlined">mic</span></a>
+            </form>
+            <a href="#" aria-label="video" ><span class="material-symbols-outlined">videocam</span></a>
+            <a href="#" aria-label="Notificacion"><span class="material-symbols-outlined">notifications</span></a>
+            <a href="#" aria-label="Perfil"><span class="material-symbols-outlined">person</span></a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section aria-labelledby="video-title" class="video-section">
+            <iframe src="https://www.youtube.com/embed/IVpuTD-2SEo" title="Video de Demostración" class="video-frame"></iframe>
+            <div class="video-info">
+                <h1 id="video-title" class="video-title">Chopin: Complete Nocturnes (Luke Faulkner)</h1>
+                <section aria-labelledby="video-info-title" class="video-details">
+                    <a href="#" aria-label="avatar" class="avatar-icon"><span class="material-symbols-outlined">account_circle</span></a>
+                    <h2 id="video-info-title" class="channel-name">HALIDONMUSIC</h2>
+                    <button class="subscribe-button">Suscribirme</button>
+                </section>
+                <div class="video-actions">
+                    <button class="action-button">👍 1.2 M</button>
+                    <button class="action-button">👎 1.2 M</button>
+                    <button class="action-button">Compartir</button>
+                    <button class="action-button">Guardar</button>
+                    <button class="action-button">Descargar</button>
+                </div>
+                <ul class="video-stats">
+                    <li class="video-views">1.2 M visualizaciones</li>
+                    <li class="video-date">Publicado el 12 de junio de 2024</li>
+                </ul>
+                <p class="video-description">Toda la mejor música clásica de la historia en el canal de YouTube de Halidon Music: la mejor mezcla de playlists de música clásica, la mejor música clásica para estudiar, música clásica para leer, música clásica para concentrarse, música clásica para dormir y relajarse, música instrumental.</p>
+                <section aria-labelledby="comments-title" class="comments-section">
+                    <h2 id="comments-title" class="comments-title">Comentarios</h2>
+                    <article class="comment">
+                        <strong class="comment-author">Ana García</strong>
+                        <time datetime="2024-06-12" class="comment-date">12 de junio de 2024</time>
+                        <p class="comment-text">¡Este video es increíble! Me encantó.</p>
+                    </article>
+                    <article class="comment">
+                        <strong class="comment-author">Carlos Martínez</strong>
+                        <time datetime="2024-06-11" class="comment-date">11 de junio de 2024</time>
+                        <p class="comment-text">Muy informativo, gracias por compartir.</p>
+                    </article>
+                    <article class="comment">
+                        <strong class="comment-author">Lucía Fernández</strong>
+                        <time datetime="2024-06-10" class="comment-date">10 de junio de 2024</time>
+                        <p class="comment-text">No esperaba menos, excelente contenido.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+        <aside aria-labelledby="recommended-videos-title" class="recommended-section">
+            <h2 id="recommended-videos-title" class="recommended-title">Videos Recomendados</h2>
+            <div class="recommended-video">
+                <img src="min1.png" alt="Miniatura del video recomendado 1" width="200" height="150" class="recommended-thumbnail">
+                <div class="recommended-info">
+                    <h3 class="recommended-title">Conoce UTP+class</h3>
+                    <p class="recommended-channel">Universidad Tecnológica del Perú - 45k suscriptores</p>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="min2.png" alt="Miniatura del video recomendado 2" width="200" height="150" class="recommended-thumbnail">
+                <div class="recommended-info">
+                    <h3 class="recommended-title">Encuentro con la Facultad de Tecnología</h3>
+                    <p class="recommended-channel">Universidad Tecnológica de Pereira - 12.5k suscriptores</p>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="min3.png" alt="Miniatura del video recomendado 3" width="200" height="150" class="recommended-thumbnail">
+                <div class="recommended-info">
+                    <h3 class="recommended-title">¿Cómo funciona ChatGPT? La revolución de la Inteligencia Artificial</h3>
+                    <p class="recommended-channel">Nate Gentile - 2.8M suscriptores</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">© 2024 YouTube, LLC</p>
+        <nav class="footer-nav">
+            <a href="#" class="footer-link">Acerca de</a>
+            <a href="#" class="footer-link">Prensa</a>
+            <a href="#" class="footer-link">Derechos de autor</a>
+            <a href="#" class="footer-link">Creadores</a>
+            <a href="#" class="footer-link">Publicidad</a>
+            <a href="#" class="footer-link">Desarrolladores</a>
+        </nav>
+    </footer>
+</body>
+</html>
